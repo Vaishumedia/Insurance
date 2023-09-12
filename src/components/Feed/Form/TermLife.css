@@ -1,0 +1,93 @@
+.left-side {
+  width: 46%;
+  display: flex;
+  justify-content: center;
+  background: rgb(244, 245, 247);
+}
+
+.right-side {
+  width: 54%;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+.data-table th,
+.data-table td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.data-table th {
+  background-color: #f2f2f2;
+}
+
+/* Button styles */
+.data-table button {
+  padding: 5px 10px;
+  margin: 2px;
+  border: none;
+  cursor: pointer;
+  background-color: #3498db;
+  color: white;
+  border-radius: 4px;
+}
+
+.data-table button:hover {
+  background-color: #2980b9;
+}
+
+.termLife {
+  position: relative;
+  min-height: 100vh;
+}
+/* 
+.table {
+  border-collapse: collapse;
+  width: 100%;
+} */
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.even {
+  background-color: #f2f2f2;
+}
+
+.odd {
+  background-color: #ffffff;
+}
+
+.footerr {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.termForm {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.navvv .footttr {
+  background-color: #f0f0f0;
+  padding: 10px;
+  position: fixed; /* Fixed position */
+  width: 100%;
+}
+
+.dataShow {
+  overflow-y: scroll;
+  height: calc(100vh - 120px);
+}
